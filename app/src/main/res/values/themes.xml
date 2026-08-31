@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Evidence" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#1B5E20</item>
+        <item name="android:colorPrimaryDark">#0E3A13</item>
+        <item name="android:colorAccent">#2E7D32</item>
+        <item name="android:statusBarColor">#1B5E20</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:windowBackground">#F2F3F5</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

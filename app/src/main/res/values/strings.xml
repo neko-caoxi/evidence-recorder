@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">取证记录</string>
+    <string name="tile_audio">录音</string>
+    <string name="tile_video">录像</string>
+    <string name="shortcut_audio_short">快速录音</string>
+    <string name="shortcut_audio_long">快速开始录音</string>
+    <string name="shortcut_video_short">快速录像</string>
+    <string name="shortcut_video_long">快速开始录像</string>
+</resources>

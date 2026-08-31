@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="quick_audio"
+        android:enabled="true"
+        android:icon="@drawable/ic_tile_mic"
+        android:shortcutShortLabel="@string/shortcut_audio_short"
+        android:shortcutLongLabel="@string/shortcut_audio_long">
+        <intent
+            android:action="com.evidence.recorder.QUICK_START"
+            android:targetPackage="com.evidence.recorder"
+            android:targetClass="com.evidence.recorder.MainActivity">
+            <extra
+                android:name="quick_action"
+                android:value="audio" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="quick_video"
+        android:enabled="true"
+        android:icon="@drawable/ic_tile_cam"
+        android:shortcutShortLabel="@string/shortcut_video_short"
+        android:shortcutLongLabel="@string/shortcut_video_long">
+        <intent
+            android:action="com.evidence.recorder.QUICK_START"
+            android:targetPackage="com.evidence.recorder"
+            android:targetClass="com.evidence.recorder.MainActivity">
+            <extra
+                android:name="quick_action"
+                android:value="video" />
+        </intent>
+    </shortcut>
+
+</shortcuts>
